@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :coupons
-  
-  get 'coupons/index', to: 'coupons#index'
+
+  get '/coupons', to: 'coupons#index'
 
   get 'coupons/show', to: 'coupons#show'
 
